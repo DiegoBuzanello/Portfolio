@@ -21,4 +21,8 @@ export const HomeApp = styled.main`
     h2:hover {
         background-color: gray;
     }
+    img {
+        width: 100%;
+        height: auto;
+    }
 `;
