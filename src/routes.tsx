@@ -56,7 +56,7 @@ const Routes = () => {
 
             <Footer>
                 <Wrapper>
-                    <IconContext.Provider value={{ size: "35rem", style: { paddingRight: '12em' }}}>
+                    <IconContext.Provider value={{ size: "3rem", style: { paddingRight: '12rem' }}}>
                         <div>
                             <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=5511964330683">
                                 <FaWhatsapp />

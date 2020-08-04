@@ -14,35 +14,28 @@ interface Item {
 
 
 const Home = () => {
-
-    console.log(projects);
-
-    // function handleSelectItem(id: number) {
-    //     const alreadySelected = selectedItems.findIndex(item => item === id);
-
-    //     if (alreadySelected >= 0) {
-    //         const filteredItems = selectedItems.filter(item => item !== id);
-
-    //         setSelectedItems(filteredItems);
-    //     } else {
-    //         setSelectedItems([ ...selectedItems, id]);
-    //     } 
-    // }
-
     return (
         <>
             <HomeApp>
                 <div>
                     {projects.map(item => (
-                        <Link
-                            key={item.id}
-                            to={`/projects/${item.id}`}
-                        >
-                            <h2>{item.name}</h2>
-                        </Link>
+                        <div>
+                            <Link
+                                key={item.id}
+                                to={`/projects/${item.id}`}
+                                className="test"
+                            >
+                                <h2>{item.name}</h2>
+                            </Link>
+
+                            <div className="project-img">
+                                <img src={item.details.img} alt="" />
+                            </div>
+                        </div>
+
                     ))}
                 </div>
-                <div>
+                <div className="image">
                     <img src={Image} alt="" />
                 </div>
             </HomeApp>
