@@ -9,7 +9,7 @@ import About from './pages/About';
 import { Header, Wrapper } from './components/Header';
 import Logo from './components/Logo';
 import { Button, ButtonTertiary } from './components/Button';
-import { Footer } from './components/Footer';
+import  Footer  from './components/Footer';
 
 import { IconContext } from "react-icons";
 import { AiFillGithub, AiOutlineDownload } from 'react-icons/ai';
@@ -26,7 +26,7 @@ const Routes = () => {
                     </Link>
                     <a target="_blank" rel="noopener noreferrer" href="https://resume.io/r/9o9vSrMC0">
                         <Button>
-                            <IconContext.Provider value={{ size: "2em", style: { paddingRight: '0.5em' } }}>
+                            <IconContext.Provider value={{ size: "3.5rem", style: { paddingRight: '10px' } }}>
                                 <div>
                                     <AiOutlineDownload />
                                 </div>
@@ -53,29 +53,7 @@ const Routes = () => {
 
 
             <Route component={About} path="/about" />
-
-            <Footer>
-                <Wrapper>
-                    <IconContext.Provider value={{ size: "3rem", style: { paddingRight: '12rem' }}}>
-                        <div>
-                            <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=5511964330683">
-                                <FaWhatsapp />
-                            </a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/diego-buzanello-7355b819b/">
-                                <FaLinkedinIn />
-                            </a>
-                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/diegobuzanello">
-                                <AiFillGithub />
-                            </a>
-
-                            
-                        </div>
-                    </IconContext.Provider>
-                    <Link to="/about">
-                        <ButtonTertiary>ABOUT</ButtonTertiary>
-                    </Link>
-                </Wrapper>
-            </Footer>
+            <Footer />
         </BrowserRouter>
     );
 }

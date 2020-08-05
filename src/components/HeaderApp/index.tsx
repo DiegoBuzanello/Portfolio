@@ -1,4 +1,26 @@
 
+import React from 'react';
+
+class HeaderApp extends React.Component {
+    render() {
+        return (
+
+        );
+    }
+}
+
+
+export default HeaderApp;
+
+
+
+
+
+
+
+
+
+
 import styled from 'styled-components';
 
 export const Header = styled.header`  

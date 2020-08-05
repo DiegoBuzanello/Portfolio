@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-    padding: 0.2rem 1rem;
+    padding: 1rem 1rem;
     background-color: var(--color-primary-medium);
     color: var(--color-gray-light);
     border-radius: 5px;
     border: 1px solid var(--color-primary-medium);
-    font-size: 1rem;
+    font-size: 1.5rem;
     cursor: pointer;
     text-decoration: none;
     display: inline-flex;
@@ -24,11 +24,10 @@ export const ButtonSecondary = styled.button`
 `;
 
 export const ButtonTertiary = styled.button`
-    padding: 1rem 3rem;
     color: var(--color-gray-dark);
     background-color: transparent;
     border: none;
-    font-size: 1rem;
+    font-size: 1.4rem;
     cursor: pointer;
     text-decoration: none;
 `;

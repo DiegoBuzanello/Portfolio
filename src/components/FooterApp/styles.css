@@ -1,0 +1,22 @@
+footer#footer-component {
+    background-color: var(--color-gray-light);
+    padding: 2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+svg {
+    color: var(--color-gray-dark);
+}
+svg:hover {
+    color: var(--color-black-medium);
+}
+
+@media(max-width: 800px) {
+    footer {
+        padding: 1rem 1rem; 
+    }
+     
+}
