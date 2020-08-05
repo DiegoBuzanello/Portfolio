@@ -3,13 +3,14 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: auto;
  }   
 
 main h2 {
-    max-width: 400px;
-    padding: 2rem;
-    width: 400px;
+    max-width: 300px;
+    width: 300px;
     font-size: 2.8rem;
     transition: 0.3s;
     font-weight: 400;
@@ -20,11 +21,7 @@ main a {
     color: rgb(58, 58, 58);
     
 }
-main h2:hover {
-    background-color: #f0f0f0;
-    color: black;
-    font-weight: bold;
-}
+
 main img {
     width: 100%;
     height: auto;
@@ -35,12 +32,40 @@ main .project-img img {
     opacity: 0;
     place-items: center;
     top: 50%;
-    left: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    z-index: -100;
+    z-index: 100;
     transition: 1s;
     position: absolute;
+    height: 60vh;
+    width: 350px;
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.19);
+    -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.19);
+    box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.19);
 }
 main .test:hover + .project-img img {
-    opacity:0.5;
+    opacity:1;
+}
+
+main p.order {
+    color: var(--color-primary-medium);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+main h3.project-tecs {
+    color: #999999;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+main .projects-blocks {
+    padding: 2rem;
+}
+
+main .projects-blocks:hover {
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    border: 1px solid #E2E2E2;
 }

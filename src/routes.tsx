@@ -16,10 +16,9 @@ const Fade = require('react-reveal/Fade');
 const Routes = () => {
     return (
         <BrowserRouter>
-            <Fade>
-                <HeaderApp />
-            </Fade>
-
+            
+            <HeaderApp />
+            
             <Route component={Home} exact path="/" />
             <Route component={Projects} exact path="/projects" />
             {projects && (
@@ -28,9 +27,8 @@ const Routes = () => {
                 )} />
             )}
             <Route component={About} path="/about" />
-            <Fade delay={1000}>
-                <FooterApp />
-            </Fade>
+
+            <FooterApp />
 
         </BrowserRouter>
     );
