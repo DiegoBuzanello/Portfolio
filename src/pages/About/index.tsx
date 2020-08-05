@@ -1,23 +1,13 @@
 import React from 'react';
-import { HomeApp } from '../../components/Home';
 
-class Home extends React.Component {
+class About extends React.Component {
     render() {
         return (
-            <>
-                <HomeApp>
-
-                    <main>
-                        <h2>USADHASDYF</h2>
-                    </main>
-
-
-                </HomeApp>
-
-            </>
+            <main>
+                <h2>USADHASDYF</h2>
+            </main>
         );
     }
-
 }
 
-export default Home;
+export default About;

@@ -1,11 +1,11 @@
 import React from 'react';
-import { ProjectDetail } from '../../components/ProjectDetail';
+import './styles.css';
 
 const ProjectsDetail = ({ project }: any) => {
     console.log(project);
     return (
         <>
-            <ProjectDetail>
+            <div id="project-detail-page">
                 <div className="col-8">
                     <img src={project.details.img} alt="" />
                     <div className="content">
@@ -30,21 +30,9 @@ const ProjectsDetail = ({ project }: any) => {
                                 <p>{item.tecs}</p>
                             </ul>
                         ))}
-
-                        <h3>Titulo sub teste</h3>
-                        <p>gddsgsd</p>
-                        <h3>Titulo sub teste</h3>
-                        <p>gddsgsd</p>
-                        <h3>Titulo sub teste</h3>
-                        <p>gddsgsd</p>
-                        <h2>Título teste</h2>
-                        <h3>Titulo sub teste</h3>
-                        <p>gddsgsd</p>
                     </div>
                 </div>
-            </ProjectDetail>
-
-
+            </div>
         </>
     );
 }

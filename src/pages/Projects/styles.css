@@ -1,0 +1,11 @@
+#project-page {
+    background-color: var(--color-gray-light);
+    padding: 2rem;
+    position: static;
+}
+
+@media(max-width: 800px) {
+    #project-page {
+        padding: 1rem 1rem; 
+    }
+}
