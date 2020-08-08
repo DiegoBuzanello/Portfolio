@@ -1,11 +1,6 @@
 import React from 'react';
 
 import { Wrapper } from '../../tools/Wrapper';
-import { IconContext } from "react-icons";
-import { AiOutlineDownload } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
-import { Button } from '../Button';
-import Logo from '../Logo';
 import ButtonApp from '../../components/ButtonApp';
 
 import './styles.css';
@@ -15,18 +10,11 @@ class HeaderApp extends React.Component {
         return (
             <header id="header-component">
                 <Wrapper>
-                    <Link to="/">
-                        <span className="logo">Diego Buzanello</span>
-                    </Link>
                     <a target="_blank" rel="noopener noreferrer" href="https://resume.io/r/9o9vSrMC0">
                         <ButtonApp 
-                            title="CV" 
+                            title="CV LINK" 
                             type="button-secondary" 
-                            icon={ 
-                                <IconContext.Provider value={{ size: "3.5rem", style: { paddingRight: '10px' } }}>
-                                    <AiOutlineDownload />
-                                </IconContext.Provider>
-                            }>
+                        >
                         </ButtonApp>
                     </a>
                 </Wrapper>

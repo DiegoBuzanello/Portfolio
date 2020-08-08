@@ -6,13 +6,16 @@ footer#footer-component {
     right: 0;
 }
 
+footer#footer-component a {
+    margin-left: 15px;
+    
+}
+footer#footer-component a button {
+    letter-spacing: 0.2rem;
+}
 
-footer#footer-component .media-buttons {
-    padding-right: 15px;
-}
-footer#footer-component svg.media-buttons  {
-    color: var(--color-primary-dark);
-}
-footer#footer-component svg.media-buttons:hover {
-    color: var(--color-primary-medium);
+@media (max-width: 645px) {
+    footer#footer-component {
+        background-color: #F9F9F9;
+    }
 }
