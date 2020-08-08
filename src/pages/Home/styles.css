@@ -1,4 +1,4 @@
- main {
+ /* main {
     font-size: 3rem;
     height: 100vh;
     display: flex;
@@ -11,9 +11,15 @@
 main h2 {
     max-width: 300px;
     width: 300px;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     transition: 0.3s;
     font-weight: 400;
+    color: black;
+    margin-bottom: 4px;
+}
+
+main h2:hover {
+    font-size: 3rem;
 }
 
 main a {
@@ -25,7 +31,22 @@ main a {
 main img {
     width: 100%;
     height: auto;
-    max-width: 450px;
+    max-width: 350px;
+}
+
+.image {
+    width: 50vw;
+}
+
+h1 {
+    font: 400 6rem 'Playfair Display';
+    margin-left: 2rem!important;
+    line-height: 6.8rem;
+}
+
+.projects-block {
+    width: 50vw;
+    margin: 25rem 0 10rem 0;
 }
 
 main .project-img img {
@@ -50,17 +71,21 @@ main .test:hover + .project-img img {
 main p.order {
     color: var(--color-primary-medium);
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 4px;
 }
 
 main h3.project-tecs {
     color: #999999;
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    text-transform: uppercase;
 }
 
 main .projects-blocks {
     padding: 2rem;
+    transition: 0.3s;
+    border: 1px solid transparent;
 }
 
 main .projects-blocks:hover {
@@ -68,4 +93,52 @@ main .projects-blocks:hover {
     color: black;
     font-weight: bold;
     border: 1px solid #E2E2E2;
+}
+
+ */
+
+ main {
+     text-align: center;
+     margin-top: 40vh;
+ }
+ main h2 {
+     font-size: 3rem;
+     margin-bottom: 5rem;
+     color: var(--color-primary-dark);
+     font-weight: 500;
+     line-height: 35px;
+     border-bottom: 1px solid var(--color-primary-light);
+     max-width: 270px;
+     padding-bottom: 80px;
+     margin: auto;
+ }
+ ul {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 10rem;
+    font-family: 'Playfair Display';
+    transition: 0.3s;
+    margin-top: 80px!important;
+}
+
+ul li {
+    margin-bottom: 40px;
+    color: gray;
+    transition: 0.6s;
+    cursor: pointer;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li:hover {
+    color: black;
+    font-size: 7rem;
+}
+
+main .projects {
+    display: flex;
+    justify-content: center;
 }

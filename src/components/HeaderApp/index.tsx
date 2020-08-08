@@ -16,12 +16,12 @@ class HeaderApp extends React.Component {
             <header id="header-component">
                 <Wrapper>
                     <Link to="/">
-                        <Logo />
+                        <span className="logo">Diego Buzanello</span>
                     </Link>
                     <a target="_blank" rel="noopener noreferrer" href="https://resume.io/r/9o9vSrMC0">
                         <ButtonApp 
                             title="CV" 
-                            type="button-primary" 
+                            type="button-secondary" 
                             icon={ 
                                 <IconContext.Provider value={{ size: "3.5rem", style: { paddingRight: '10px' } }}>
                                     <AiOutlineDownload />

@@ -1,5 +1,7 @@
 * {
     font-size: 60%;
+    font-family: 'Playfair Display', sans-serif;
+    background-color: var(--color-background-primary);
 }
 
 ::-webkit-scrollbar {

@@ -5,7 +5,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Image from '../../assets/img/main-ilust.svg';
 import projects from '../../services/projects';
-
+import ButtonApp from '../../components/ButtonApp';
 
 
 import './styles.css';
@@ -17,7 +17,11 @@ const Home = () => {
     return (
 
         <main>
-            <div>
+            {/* <div className="image">
+                <img src={Image} alt="" />
+            </div>
+            <div className="projects-block">
+                <h1>Hi, I'm a web <br /> developer</h1>
                 {projects.map(item => (
                     <div key={item.id}>
                         <Link
@@ -36,10 +40,20 @@ const Home = () => {
                         </div>
                     </div>
                 ))}
+                <ButtonApp title="Mais projetos" type="button-secondary" />
+            </div> */}
+            <h2>Hi, <br />I’m a web developer</h2>
+            <div className="projects">
+                <ul>
+                    {projects.map(item => (
+                        <Link to={`/projects/${item.id}`}>
+                            <li>{item.name}</li>
+                        </Link>
+
+                    ))}
+                </ul>
             </div>
-            <div className="image">
-                <img src={Image} alt="" />
-            </div>
+            
         </main>
 
 

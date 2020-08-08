@@ -1,17 +1,18 @@
 footer#footer-component {
-    background-color: var(--color-gray-light);
+    background-color: transparent;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
 }
 
+
 footer#footer-component .media-buttons {
     padding-right: 15px;
 }
 footer#footer-component svg.media-buttons  {
-    color: var(--color-gray-dark);
+    color: var(--color-primary-dark);
 }
 footer#footer-component svg.media-buttons:hover {
-    color: var(--color-black-medium);
+    color: var(--color-primary-medium);
 }

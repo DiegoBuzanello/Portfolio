@@ -36,7 +36,7 @@ footer, header, hgroup, menu, nav, section {
   }
 body {
 	line-height: 1;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Playfair Display', sans-serif;
 	background-color: var(--color-gray-light);
 }
 ol, ul {

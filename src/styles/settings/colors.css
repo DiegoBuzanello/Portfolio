@@ -1,5 +1,11 @@
 :root {
-    --color-primary-medium: #6A00F0;
+
+
+    --color-primary-dark: #0B0B0B;
+    --color-primary-medium: #808080;
+    --color-primary-light: #CBC8C8;
+    --color-background-primary: #F9F9F9;
+    /* --color-primary-medium: #6A00F0;
     --color-black-dark: #000;
     --color-black-medium: rgba(0, 0, 0, .6);
     --color-gray-light: #F5F5F5;
@@ -14,5 +20,5 @@
     --color-inovation: #FF8C2A;
     --color-ux: #DC6EBE;
     --color-data-science: #9CD33B;
-    --color-pixelart: #f91c24;
+    --color-pixelart: #f91c24; */
 }

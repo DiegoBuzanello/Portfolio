@@ -6,7 +6,7 @@ import { IconContext } from "react-icons";
 import { AiFillGithub } from 'react-icons/ai';
 import { FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { ButtonTertiary } from '../Button';
+import ButtonApp from '../ButtonApp';
 
 import './styles.css';
 
@@ -29,7 +29,8 @@ class FooterApp extends React.Component {
                         </div>
                     </IconContext.Provider>
                     <Link to="/about">
-                        <ButtonTertiary>ABOUT</ButtonTertiary>
+                        <ButtonApp title="About" type="button-tertiary" />
+                        {/* <ButtonTertiary>ABOUT</ButtonTertiary> */}
                     </Link>
                 </Wrapper>
             </footer>
