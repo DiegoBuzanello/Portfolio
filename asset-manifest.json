@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a29acd96.chunk.css",
+    "main.js": "/static/js/main.3482e9a2.chunk.js",
+    "main.js.map": "/static/js/main.3482e9a2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.8948a90b.chunk.js": "/static/js/2.8948a90b.chunk.js",
+    "static/js/2.8948a90b.chunk.js.map": "/static/js/2.8948a90b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b2f6557c75fddc132c8f4c69d9c64e1f.js": "/precache-manifest.b2f6557c75fddc132c8f4c69d9c64e1f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a29acd96.chunk.css.map": "/static/css/main.a29acd96.chunk.css.map",
+    "static/js/2.8948a90b.chunk.js.LICENSE.txt": "/static/js/2.8948a90b.chunk.js.LICENSE.txt",
+    "static/media/ecoleta.png": "/static/media/ecoleta.3ea000b5.png",
+    "static/media/hibike.png": "/static/media/hibike.4e7c409a.png",
+    "static/media/planob.png": "/static/media/planob.35a03e76.png",
+    "static/media/proffy.png": "/static/media/proffy.daee8c83.png",
+    "static/media/punkpaulista.png": "/static/media/punkpaulista.15915676.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.8948a90b.chunk.js",
+    "static/css/main.a29acd96.chunk.css",
+    "static/js/main.3482e9a2.chunk.js"
+  ]
+}
