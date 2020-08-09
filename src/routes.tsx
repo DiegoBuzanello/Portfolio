@@ -9,13 +9,9 @@ import FooterApp from './components/FooterApp';
 const Routes = () => {
     return (
         <BrowserRouter>
-            
             <HeaderApp />
-            
-            <Route component={Home} exact path="/" />
-
+            <Route component={Home} path="/" />
             <FooterApp />
-
         </BrowserRouter>
     );
 }

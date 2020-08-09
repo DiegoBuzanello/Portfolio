@@ -3,6 +3,7 @@ import React from 'react';
 import './styles.css';
 
 import projects from '../../services/projects';
+
 const Fade = require('react-reveal/Fade');
 
 const Home = () => {

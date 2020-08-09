@@ -28,7 +28,6 @@ main#main-page ul li {
     background-color: transparent;
 }
 
-
 main#main-page ul p {
     font: 2rem 'Playfair Display';
     color: #8B8B8B;
@@ -42,10 +41,12 @@ img {
     background-color: transparent;
     z-index: 1;
 }
+
 li {
     z-index: 3213;
     position: relative;
 }
+
 main#main-page ul li:hover {
    color: black;
    z-index: 4;
@@ -55,7 +56,6 @@ main#main-page .project-image {
     opacity: 0;
     transition: 0.3s;
     position: fixed;
-    /* z-index: 1; */
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
@@ -65,27 +65,27 @@ main#main-page .project-image img {
     max-height: 600px;
     max-width: 600px;
     z-index: 1;
-
 }
+
 main#main-page a:hover + .project-image {
     opacity: 1;
-    
 }
 
 @media (max-width: 1450px) {
+
     main#main-page .project-image {
         left: 85%;
     }
-    main#main-page .project-image img {
-        
-    }
+
 }
 
 
 @media (max-width: 900px) {
+
     main#main-page .project-image {
         display: none;
     }
+
 }
 
 @media (max-width: 640px) {
@@ -94,6 +94,7 @@ main#main-page a:hover + .project-image {
         padding-bottom: 100px;
         padding-top: 120px;
     }
+
     main#main-page ul li {
         line-height: 7rem;
         margin-bottom: 20px;
