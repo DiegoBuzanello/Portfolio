@@ -72,7 +72,7 @@ main#main-page a:hover + .project-image {
     
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1450px) {
     main#main-page .project-image {
         left: 85%;
     }
