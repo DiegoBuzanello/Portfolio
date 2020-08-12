@@ -4,7 +4,35 @@ header#header-component {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
+}
+#menu-list-grow li {
+    font-size: 1.4rem;
+    color: var(--color-primary-dark);
+}
+button.cv-button {
+    z-index: 20;
+    font-size: 5rem;
+    color: var(--color-primary-dark);
+    border: 1px solid var(--color-primary-dark) ;
+}
+
+.cv-button .MuiButton-label {
+    z-index: 100;
+    font-size: 1.5rem;
+    background-color: transparent;
+    letter-spacing: 0.2rem;
+}
+.cv-button-options li .option-pdf {
+    color: black;
+    font-size: 1.6rem;
     z-index: 10;
+    background-color: transparent;
+}
+
+.cv-button-options li .option-pdf a {
+    color: var(--color-primary-dark);
+    background-color: transparent;
 }
 
 @media(max-width: 800px) {

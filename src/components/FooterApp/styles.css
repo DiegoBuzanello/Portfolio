@@ -17,5 +17,6 @@ footer#footer-component a button {
 @media (max-width: 645px) {
     footer#footer-component {
         background-color: #F9F9F9;
+        z-index: 100;
     }
 }
